@@ -67,7 +67,7 @@ export default function Home() {
             className="hidden lg:block w-[25rem] rounded-b-lg overflow-hidden"
           />
           <div className="flex flex-col px-6 gap-6">
-            <h1 className=" font-bold text-[2.5rem] leading-none">
+            <h1 className=" font-bold text-[2.5rem] lg:text-[3.5rem] leading-none">
               Stay updated!
             </h1>
             <p className="text-base">
