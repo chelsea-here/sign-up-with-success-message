@@ -9,11 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        tomato: "hsl(4, 100%, 67%)",
+        darkSlateGray: "hsl(234, 29%, 20%)",
+        darkNavy: "#242742",
+        charcoalGray: "hsl(235, 18%, 26%)",
+        gray: "rgba(25, 24, 43, 0.25)",
+        white: "hsl(0, 0%, 100%)",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        vermellion: "#FF6155",
+      },
+      boxShadow: {
+        "3xl": "0px 16px 32px 0px #ff615580",
+      },
+      content: {
+        checkmark: 'url("/icon-list.svg")',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require("@tailwindcss/forms")({
+      strategy: "class", // only generate classes
+    }),
+  ],
 };
 export default config;
