@@ -51,7 +51,7 @@ export function EmailForm({
         type="submit"
         value="Subscribe to monthly newsletter"
         onClick={onClick}
-        className={`flex flex-col justify-center text-white h-[3.5rem] font-bold rounded-lg ${(!isDirty || !isValid) ? "bg-darkNavy cursor-not-allowed hover:none" : 
+        className={`flex flex-col justify-center align-middle text-white h-[3.5rem] font-bold rounded-lg ${(!isDirty || !isValid) ? "bg-darkNavy cursor-not-allowed hover:none" : 
             " bg-gradient-to-bl from-[#FF6A3A] to-[#FF527B] cursor-pointer hover:shadow-3xl "
         }`}
       >
