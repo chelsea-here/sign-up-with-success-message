@@ -45,9 +45,8 @@ export default function Home() {
   console.log(watch("email")); // watch input value by passing the name of it
   console.log(errors);
 
-  const listImage = "bg-checkList bg-no-repeat pl-9 bg-bottom-1";
-  // const listImage = "before:content-checkmark before:pr-4 before:align-top";
-  /* the listImage uses bg-image for more precise styling than list-image allowed, now I can add a padding-left to indent text while maintaining cleanly aligned text using outside style and i can adjust the bg-position*/
+  const listImage = "bg-checkList bg-no-repeat pl-9 bg-top-1";
+  /* the listImage uses bg-image for more precise styling than list-image allowed, now I can add a padding-left to indent text while maintaining cleanly aligned text using outside style and i can adjust the bg-position */
 
   return (
     <>

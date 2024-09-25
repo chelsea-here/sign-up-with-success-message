@@ -26,7 +26,7 @@ const config: Config = {
         checkList: 'url("/icon-list.svg")',
       },
       backgroundPosition: {
-        "bottom-1": "left bottom 2px",
+        "top-1": "left top 2px",
       },
       content: {
         checkmark: 'url("/icon-list.svg")',
