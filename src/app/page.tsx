@@ -45,7 +45,8 @@ export default function Home() {
   console.log(watch("email")); // watch input value by passing the name of it
   console.log(errors);
 
-  const listImage = "before:content-checkmark before:pr-4 before:align-top";
+  const listImage = "bg-checklist bg-no-repeat";
+  // const listImage = "before:content-checkmark before:pr-4 before:align-top";
   /* the listImage uses :before content for more precise styling than list-image allowed */
 
   return (
@@ -75,7 +76,7 @@ export default function Home() {
             </p>
             <ol
               role="list"
-              className="flex flex-col list-outside list-image-none pl-4 -indent-4 gap-[0.62rem]"
+              className="flex flex-col list-outside list-image-none pl-4 -indent-4 gap-[0.62rem] pb-4"
               /* margin left is width of image+ 1 rem */
             >
               <li className={listImage}>
