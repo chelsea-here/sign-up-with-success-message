@@ -53,6 +53,7 @@ Users should be able to:
 
 ### Resources
 
+- [YouTube video on list-styline using background image] (https://youtu.be/M5audtofhIo?si=HkL1phEmanmTbje7)
 - [Blog on Building a Toggle Button Component](https://www.dhiwise.com/post/react-toggle-button-a-journey-from-creation-to-customization)
 
 ## Author

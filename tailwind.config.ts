@@ -22,6 +22,12 @@ const config: Config = {
       boxShadow: {
         "3xl": "0px 16px 32px 0px #ff615580",
       },
+      backgroundImage: {
+        checkList: 'url("/icon-list.svg")',
+      },
+      backgroundPosition: {
+        "bottom-1": "left bottom 2px",
+      },
       content: {
         checkmark: 'url("/icon-list.svg")',
       },
